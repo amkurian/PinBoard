@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The application allows user to upload a Pin with a title, description and image. The option to vote for a pin is also implemented. The application is made using Ruby 2.3.0 and Rails 5. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Macenzie Childs 12 out of 12 Challenge
