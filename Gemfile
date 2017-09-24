@@ -7,7 +7,6 @@ end
 
 
 gem 'rails', '~> 5.0.1'
-gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -22,9 +21,11 @@ gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.10.0'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'sqlite3'
 end
 
 group :development do
@@ -33,5 +34,10 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+group :production do 
+  gem 'pg'
+end
+
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
